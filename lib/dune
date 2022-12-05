@@ -1,0 +1,7 @@
+(library
+ (name lua)
+ (foreign_archives ../lua_c/lua-5.4.4/src/lua)
+ (foreign_stubs
+  (language c)
+  (include_dirs ../lua_c/lua-5.4.4/src)
+  (names lua_stubs)))
